@@ -19,6 +19,7 @@ function Usercard(props) {
         <div className='usercard-container'>
             <h1>{props.usercard.name}'s Usercard</h1>
             <Avatar className={classes.large} src={image} alt='this is a person lol'/>
+            <img src="https://ghchart.rshah.org/mtoricruz" alt="mtoricruz's Github chart" />
             <h2>@{props.usercard.login}</h2>
             <h4>Following: {props.usercard.following}</h4>
             <h4>Followers:</h4>
