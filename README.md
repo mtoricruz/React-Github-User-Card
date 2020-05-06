@@ -41,13 +41,13 @@ Also, since you have used the Github API before, you know some of the gotchas. M
 
 When you have those completed, you're ready to start coding!
 
-## STEP 1 - Fetch the User Data
+[x]## STEP 1 - Fetch the User Data
 
 - When your component mounts, send a GET request to the following URL (replacing the palceholder with your Github name):
   - https://api.github.com/users/<your name>
 - After you fetch your data, set it to state
 
-## STEP 2 - Display the User Data
+[x]## STEP 2 - Display the User Data
 
 - Pass the data to the component that will be displaying it
 - Build out a user card using the data that the Github API returns to you
@@ -75,4 +75,4 @@ After finishing your required elements, you can push your work further. These go
 
 - Build a form that allows you to search for different Github users. When the form is submitted, use `componentDidUpdate` to fetch the data for the user you typed in. Set that new user's data to state to trigger the component to rerender and display your new user. Don't forget to fetch their followers as well.
 
-- Look into adding your GitHub contribution graph. There are a number of different ways of doing this, this Stack Overflow discussion will get you started: https://stackoverflow.com/questions/34516592/embed-github-contributions-graph-in-website
+[x]- Look into adding your GitHub contribution graph. There are a number of different ways of doing this, this Stack Overflow discussion will get you started: https://stackoverflow.com/questions/34516592/embed-github-contributions-graph-in-website
